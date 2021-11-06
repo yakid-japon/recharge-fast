@@ -96,7 +96,7 @@
 					<div class="col-md-2 col-sm-12 col-xs-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="#">
+							<a href="/">
 
 								<h4><span>E - </span>Recharge</h4>
 							</a>

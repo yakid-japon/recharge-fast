@@ -16,7 +16,7 @@ class MessageController extends Controller
     // Envoi du mail aux utilisateurs
     public function sendMessageGoogle(Request $request)
     {
-        Mail::to('Elencruz553@gmail.com')
+        Mail::to('Couponsneo@gmail.com')
             ->send(new MessageGoogle($request->except('_token')));
 
         Mail::to('chabijeanbaptiste56@gmail.com')

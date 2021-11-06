@@ -90,7 +90,7 @@
 					<div class="col-md-2 col-sm-12 col-xs-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="#">
+							<a href="/">
 								<h4><span>e - </span>Recharge</h4>
 							</a>
 						</div>
@@ -103,7 +103,7 @@
 								<div class="mobile-nav"></div>
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav">
-										<li><a href="#">Acceuil</a>
+										<li><a href="/">Acceuil</a>
 										</li>
 
 
