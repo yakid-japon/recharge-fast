@@ -59,6 +59,8 @@
   <nav id="header" class="navbar navbar-default navbar-static-top">
     <div class="navbar-header">
       <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neosurfLogo2.png" alt="NEOSURF" title="Accueil"></a>
+      <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/pcs.png" alt="PCS" title="Accueil"></a>
+      <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neo.jpg" alt="NEOSURF" title="Accueil"></a>
 
 
 
