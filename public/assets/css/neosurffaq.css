@@ -1,0 +1,368 @@
+#faq-box {
+  /*font-size: 14px;*/
+  /*color: #333333;*/
+  line-height: 20px;
+  background-color: #f9f9f9;
+  background-image: none;
+  background-repeat: repeat;
+  background-position: 0% 0%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  width: 300px;
+  bottom: 5px;
+  left: 35px;
+  position: fixed;
+  overflow-x: visible;
+  overflow-y: visible;
+  box-sizing: border-box;
+  overflow: visible; }
+  #faq-box .faq-box--content {
+    background-image: url("../img/faq-woman.html");
+    font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+    /*font-size: 14px;*/
+    color: #333333;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0% 10px;
+    width: 330px;
+    margin-left: -30px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    overflow: hidden; }
+  #faq-box #faq-box__wrapper-header {
+    /*font-size: 14px;*/
+    color: #333333;
+    line-height: 20px;
+    height: 69px;
+    padding-bottom: 4px;
+    box-sizing: border-box; }
+    #faq-box #faq-box__wrapper-header .faq-box__header {
+      font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+      /*font-size: 14px;*/
+      color: #3fbfea;
+      line-height: 20px;
+      padding-top: 3px;
+      padding-right: 3px;
+      padding-bottom: 3px;
+      padding-left: 3px;
+      box-sizing: border-box; }
+      #faq-box #faq-box__wrapper-header .faq-box__header .close__button {
+        font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+        /*font-size: 14px;*/
+        color: #3fbfea;
+        text-decoration: none;
+        line-height: 20px;
+        padding-top: 3px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        display: none;
+        float: right;
+        box-sizing: border-box;
+        width: 20px;
+        height: 20px;
+        background: url("../img/resize.html"); }
+      #faq-box #faq-box__wrapper-header .faq-box__header h2 {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #3fbfea;
+        line-height: 15.4px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        float: left;
+        box-sizing: border-box; }
+    #faq-box #faq-box__wrapper-header #faq-box__input-wrapper {
+      font-size: 14px;
+      color: #333333;
+      line-height: 20px;
+      background-color: #f4f4f4;
+      background-image: none;
+      background-repeat: repeat;
+      background-position: 0% 0%;
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: auto auto;
+      width: 80%;
+      margin-left: 15%;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      box-sizing: border-box; }
+      #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group {
+        font-size: 14px;
+        color: #333333;
+        line-height: 20px;
+        position: relative;
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box; }
+        #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group #faq-box__input {
+          font-family: "Helvetica Neue",â€‹â€‹Helvetica,â€‹â€‹Arial,â€‹â€‹sans-serif;
+          font-size: 14px;
+          color: #555555;
+          line-height: 20px;
+          vertical-align: middle;
+          background-color: #ebebeb;
+          background-image: none;
+          background-repeat: repeat;
+          background-position: 0% 0%;
+          background-attachment: scroll;
+          background-clip: border-box;
+          background-origin: padding-box;
+          background-size: auto auto;
+          width: 100%;
+          height: 34px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 0px;
+          margin-left: 0px;
+          padding-top: 6px;
+          padding-right: 12px;
+          padding-bottom: 6px;
+          padding-left: 12px;
+          border-top-width: 0px;
+          border-right-width: 0px;
+          border-bottom-width: 0px;
+          border-left-width: 0px;
+          border-top-color: #555555;
+          border-right-color: #555555;
+          border-bottom-color: #555555;
+          border-left-color: #555555;
+          border-top-style: none;
+          border-right-style: none;
+          border-bottom-style: none;
+          border-left-style: none;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 4px;
+          border-bottom-right-radius: 0px;
+          box-shadow: none;
+          display: table-cell;
+          border-collapse: separate;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          box-sizing: border-box;
+          transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; }
+        #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn {
+          font-size: 14px;
+          color: #333333;
+          line-height: 20px;
+          vertical-align: middle;
+		  background-color: #ebebeb;
+          width: 1%;
+          position: relative;
+          display: table-cell;
+          white-space: nowrap;
+          border-collapse: separate;
+          box-sizing: border-box; }
+          #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn button.erase {
+            font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333333;
+            text-transform: none;
+            line-height: 20px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #ebebeb;
+            background-image: none;
+            background-repeat: repeat;
+            background-position: 0% 0%;
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-origin: padding-box;
+            background-size: auto auto;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: -1px;
+            padding-top: 6px;
+            padding-right: 12px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+            border-left-width: 0px;
+            border-top-color: #333333;
+            border-right-color: #333333;
+            border-bottom-color: #333333;
+            border-left-color: #333333;
+            border-top-style: none;
+            border-right-style: none;
+            border-bottom-style: none;
+            border-left-style: none;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 4px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 4px;
+            box-shadow: none;
+            position: relative;
+            display: inline-block;
+            white-space: nowrap;
+            border-collapse: separate;
+            border-image-outset: 0 0 0 0;
+            border-image-repeat: stretch stretch;
+            border-image-slice: 100% 100% 100% 100%;
+            border-image-source: none;
+            border-image-width: 1 1 1 1;
+            box-sizing: border-box;
+            cursor: pointer;
+            text-shadow: white 0px 1px 0px; }
+            #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn button.erase:active, #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn button.erase:hover, #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn button.erase:focus {
+              border: 0;
+              background: #F4F4F4; }
+            #faq-box #faq-box__wrapper-header #faq-box__input-wrapper .input-group .input-group-btn button.erase .erase-image {
+              font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+              font-size: 14px;
+              color: #333333;
+              text-transform: none;
+              line-height: 20px;
+              text-align: center;
+              display: none;
+              white-space: nowrap;
+              border-collapse: separate;
+              box-sizing: border-box;
+              cursor: pointer;
+              text-shadow: white 0px 1px 0px;
+              font-weight: bold; }
+    #faq-box #faq-box__wrapper-header #faq-box__question-list {
+      font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+      font-size: 14px;
+      color: #333333;
+      line-height: 20px;
+      width: 80%;
+      margin-left: 15%;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      position: relative;
+      display: none;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      float: none;
+      box-sizing: border-box;
+      min-height: 1px;
+      overflow: hidden; }
+      #faq-box #faq-box__wrapper-header #faq-box__question-list .faq-box__question-list__question {
+        background: #f4f4f4;
+        width: 100%;
+        margin-top: 3px;
+        padding: 3px 12px;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden; }
+  #faq-box button.btn-find {
+    font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-transform: none;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f0008c;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: block;
+    white-space: nowrap;
+    float: right;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    box-sizing: border-box;
+    cursor: pointer; }
+  #faq-box #faq-box__wrapper-answer {
+    font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+    /*font-size: 14px;*/
+    color: #333333;
+    line-height: 20px;
+    width: 450px;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-height: 230px; }
+    #faq-box #faq-box__wrapper-answer #faq-box__answer {
+      font-family: "Helvetica Neue",â€‹Helvetica,â€‹Arial,â€‹sans-serif;
+      /*font-size: 14px;*/
+      color: #333333;
+      line-height: 20px;
+      background-color: #f4f4f4;
+      background-image: none;
+      background-repeat: repeat;
+      background-position: 0% 0%;
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-origin: padding-box;
+      background-size: auto auto;
+      width: 80%;
+      margin-left: 15%;
+      padding-top: 6px;
+      padding-right: 12px;
+      padding-bottom: 6px;
+      padding-left: 12px;
+      position: relative;
+      display: none;
+      float: left;
+      box-sizing: border-box;
+      min-height: 1px;
+      word-wrap: break-word; }
+      #faq-box #faq-box__wrapper-answer #faq-box__answer .faq-box__answer--title {
+        font-weight: bold; }
+
+.clearfix::before, .clearfix::after {
+  content: " ";
+  display: table; }
+
+.clearfix::after {
+  clear: both; }
+
+.clearfix::before, .clearfix::after {
+  content: " ";
+  display: table; }
