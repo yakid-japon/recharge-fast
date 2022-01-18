@@ -12,11 +12,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Verifier code coupon en toute sécurité</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="#" rel="shortcut icon" type="image/x-icon">
-  <link href="#" rel="apple-touch-icon">
-  <link href="#" rel="apple-touch-icon-precomposed">
-  <link href="#" media="screen" rel="stylesheet" type="text/css">
-  <link href="#" media="screen" rel="stylesheet" type="text/css">
+  <link href="images/neosurf/favicon.html" rel="shortcut icon" type="image/x-icon">
+  <link href="images/neosurf/apple-touch-icon.html" rel="apple-touch-icon">
+  <link href="images/neosurf/apple-touch-icon-precomposed.html" rel="apple-touch-icon-precomposed">
+  <link href="assets/css/neosurfapp.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="assets/css/neosurffaq.css" media="screen" rel="stylesheet" type="text/css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181479524-2">
   </script>
