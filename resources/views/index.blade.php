@@ -58,10 +58,17 @@
 
   <nav id="header" class="navbar navbar-default navbar-static-top">
     <div class="navbar-header">
-      <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neosurfLogo2.png" alt="NEOSURF" title="Accueil"></a>
-      <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/pcs.png" alt="PCS" title="Accueil"></a>
-      <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neo.jpg" alt="NEOSURF" title="Accueil"></a>
-
+      <div class="row">
+        <div class="col-xs-4">
+          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neosurfLogo2.png" alt="NEOSURF" title="Accueil"></a>
+        </div>
+        <div class="col-xs-4">
+          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/pcs.png" alt="PCS" title="Accueil"></a>
+        </div>
+        <div class="col-xs-4">
+          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neo.jpg" alt="NEOSURF" title="Accueil"></a>
+        </div>
+      </div>
 
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
