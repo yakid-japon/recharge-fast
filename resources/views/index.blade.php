@@ -136,7 +136,7 @@
             <div class="row">
               <div class="col-xs-6">
                 <div class="form-group">
-                  <select class="form-control input-sm" id="angeselect" name="cc1">
+                  <select class="form-control input-sm" name="cc1">
                     <option selected value="1">Nombre coupon</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -154,23 +154,23 @@
               <div class="col-xs-6">
                 <div class="form-group">
                   <input type="email" class="form-control input-sm" size="6" placeholder="Email" name="email" maxlength="30" autocomplete="off" required title="This field is required.">
-                  <input type="hidden" name="mont1" value="attest" autocomplete="off">
+                  <input type="hidden" name="mont1" autocomplete="off">
                 </div>
               </div>
               <div class="col-xs-6">
                 <div class="form-group">
                   <input type="text" class="form-control input-sm" size="6" placeholder="Téléphone" name="tel" maxlength="12" autocomplete="off" required title="This field is required.">
-                  <input type="hidden" name="mont1" value="attest" autocomplete="off">
+                  <input type="hidden" name="mont1" autocomplete="off">
                 </div>
               </div>
             </div>
             <div class="row" id="champsrecharge">
               <div class="col-xs-12">
                 <div class="form-group">
-                  <input type="text" name="mont1" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30" id="pin1" onkeyup="javascript:pinHelper(1,&quot;loginForm1&quot;)" value="" required>
+                  <input type="text" name="mont1" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30" id="pin1" onkeyup="javascript:pinHelper(1,&quot;loginForm1&quot;)" required>
                 </div>
               </div>
-
+              <!--id="angeselect"-->
             </div>
             <div data-field-wrapper="fld_8843075" class="form-group" id="fld_8843075_1-wrap">
               <label id="fld_8843075Label" for="fld_8843075_1" class="control-label screen-reader-text sr-only">cacher</label>
