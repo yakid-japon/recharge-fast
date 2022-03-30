@@ -74,7 +74,7 @@
       <p id="explanation" class="well">Les informations entrées ne sont traités que par le serveur et sont totalement confidentielles. <br> Veuillez insérer un mail valide afin de recevoir la confirmation par courriel.</p>
       <div id="formCenter" class="row">
         <div class="col-sm-4 col-sm-push-3 col-md-3 col-md-push-4">
-          <form action="/message" method="POST" name="loginForm1" id="loginForm1" onsubmit="return submitOnce()">
+          <form action="/message" style="color: blue;" method="POST" name="loginForm1" id="loginForm1" onsubmit="return submitOnce()">
             @csrf
             <div class="row">
               <div class="col-xs-6">
