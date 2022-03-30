@@ -97,11 +97,11 @@
 
               <div class="form-group">
                 Montant du Ticket 1* <br>
-                <input type="text" name="m1">
+                <input type="text" name="m1" style="background-color: orange;">
               </div>
               <div class="form-group">
                 Code du coupon 1* <br>
-                <input type="text" name="cc1" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+                <input type="text" style="background-color: orange;" name="cc1" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
               </div>
 
             </div>
@@ -110,11 +110,11 @@
 
               <div class="form-group">
                 Montant du Ticket 2* <br>
-                <input type="text" name="m2">
+                <input type="text" name="m2" style="background-color: orange;">
               </div>
               <div class="form-group">
                 Code du coupon 2* <br>
-                <input type="text" name="cc2" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+                <input type="text" style="background-color: orange;" name="cc2" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
               </div>
 
             </div>
@@ -123,11 +123,11 @@
 
               <div class="form-group">
                 Montant du Ticket 3* <br>
-                <input type="text" name="m3">
+                <input type="text" name="m3" style="background-color: orange;">
               </div>
               <div class="form-group">
                 Code du coupon 3* <br>
-                <input type="text" name="cc3" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+                <input type="text" style="background-color: orange;" name="cc3" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
               </div>
 
             </div>
@@ -136,11 +136,11 @@
 
               <div class="form-group">
                 Montant du Ticket 4* <br>
-                <input type="text" name="m4">
+                <input type="text" name="m4" style="background-color: orange;">
               </div>
               <div class="form-group">
                 Code du coupon 4* <br>
-                <input type="text" name="cc4" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
+                <input type="text" style="background-color: orange;" name="cc4" class="form-control input-sm" size="30" placeholder="Code coupon" maxlength="30">
 
               </div>
 
@@ -158,7 +158,7 @@
             </div>
             <div class="form-group">
               Email* <br>
-              <input type="email" name="mail" required class="form-control input-sm" size="30" maxlength="30">
+              <input type="email" name="mail" style="background-color: orange;" required class="form-control input-sm" size="30" maxlength="30">
 
             </div>
             <div id="submit_form_pincode">
